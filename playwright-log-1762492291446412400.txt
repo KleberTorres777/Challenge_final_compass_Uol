@@ -1,0 +1,82 @@
+{"level":30,"time":"2025-11-07T05:11:33.041Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Listening on 127.0.0.1:52748"}
+{"level":30,"time":"2025-11-07T05:11:33.179Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-07T05:11:34.157Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-07T05:11:34.158Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-07T05:11:34.159Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-07T05:11:34.176Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-07T05:11:34.177Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a3487e7b078003c3a6c010d21be8e23e\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=54d9c611-ccf4-4ef7-bb54-8a9e0f4e2552\"}"}
+{"level":30,"time":"2025-11-07T05:11:34.215Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Setting default timeout for context context=db78d64a-e81b-429c-83d6-efcafa19fdb7 to 10000"}
+{"level":30,"time":"2025-11-07T05:11:34.216Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Changed active context: context=db78d64a-e81b-429c-83d6-efcafa19fdb7"}
+{"level":30,"time":"2025-11-07T05:11:34.559Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-07T05:11:34.559Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Changed active page"}
+{"level":30,"time":"2025-11-07T05:11:36.964Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3002/
+Call log:
+[2m  - navigating to "http://localhost:3002/", waiting until "load"[22m
+
+    at newPage (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12892:18)
+    at async PlaywrightServer.newPage (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13510:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-11-07T05:11:36.981Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10979:11)
+    at takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11035:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13510:34)
+    at Object.onReceiveHalfClose (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-07T05:11:36.985Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-11-07T05:11:37.319Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10979:11)
+    at takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11035:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13510:34)
+    at Object.onReceiveHalfClose (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-07T05:11:37.320Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10979:11)
+    at takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11035:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13510:34)
+    at Object.onReceiveHalfClose (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-07T05:11:37.332Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-11-07T05:11:37.334Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-11-07T05:11:37.378Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.379Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.390Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.391Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.397Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.398Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.408Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.408Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.414Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Changed active context: context=db78d64a-e81b-429c-83d6-efcafa19fdb7"}
+{"level":30,"time":"2025-11-07T05:11:37.422Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-07T05:11:37.454Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-07T05:11:37.521Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:37.522Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-07T05:11:39.713Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-07T05:11:39.993Z","pid":3248,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method closeAllBrowsers"}

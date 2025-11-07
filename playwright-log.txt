@@ -1,0 +1,31 @@
+{"level":30,"time":"2025-11-07T14:24:40.517Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Listening on 127.0.0.1:65080"}
+{"level":30,"time":"2025-11-07T14:24:40.989Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-07T14:24:41.285Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-07T14:24:41.286Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-07T14:24:41.286Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-07T14:24:41.321Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-07T14:24:41.322Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@9042cafb79039d579c28143be9deab32\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=994c8d96-8ee2-490d-8144-2b67d2cc1f46\"}"}
+{"level":30,"time":"2025-11-07T14:24:41.357Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Setting default timeout for context context=bb04d3a1-a711-4e3e-b683-ffadf304990d to 10000"}
+{"level":30,"time":"2025-11-07T14:24:41.357Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Changed active context: context=bb04d3a1-a711-4e3e-b683-ffadf304990d"}
+{"level":30,"time":"2025-11-07T14:24:41.726Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-07T14:24:41.726Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Changed active page"}
+{"level":30,"time":"2025-11-07T14:24:42.918Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-07T14:24:42.955Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-11-07T14:24:43.006Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method goTo"}
+{"level":30,"time":"2025-11-07T14:24:43.023Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-07T14:24:43.023Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Strict mode is enabled, find Locator with css=h1:has-text(\"Login\") in page."}
+{"level":30,"time":"2025-11-07T14:24:48.039Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('h1:has-text("Login")') to be visible[22m
+
+    at waitForElementState (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11604:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13510:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-11-07T14:24:48.071Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-11-07T14:24:48.072Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","Take screenshot with options: ":{"path":"C:\\Users\\Dell\\cinema-challenge-J\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-11-07T14:24:48.265Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-11-07T16:33:44.948Z","pid":17820,"hostname":"DESKTOP-RVC6TM4","msg":"Removed page=14ebc8ae-15ef-4622-b5c9-8cba1d9f6fe2 from context=bb04d3a1-a711-4e3e-b683-ffadf304990d page stack"}

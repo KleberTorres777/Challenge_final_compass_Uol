@@ -1,0 +1,49 @@
+{"level":30,"time":"2025-11-07T14:25:04.641Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Listening on 127.0.0.1:53113"}
+{"level":30,"time":"2025-11-07T14:25:04.809Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-07T14:25:05.803Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-07T14:25:05.804Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-07T14:25:05.804Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-07T14:25:05.827Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-07T14:25:05.828Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@cf62a507b7ef60e71cf1174e6b9f20e3\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=e0106e80-440d-4149-a8f4-5547ec3baeb6\"}"}
+{"level":30,"time":"2025-11-07T14:25:05.843Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Setting default timeout for context context=106d8152-047c-4e09-96aa-bc022dcc19ce to 10000"}
+{"level":30,"time":"2025-11-07T14:25:05.843Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Changed active context: context=106d8152-047c-4e09-96aa-bc022dcc19ce"}
+{"level":30,"time":"2025-11-07T14:25:06.283Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-07T14:25:06.283Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Changed active page"}
+{"level":30,"time":"2025-11-07T14:25:07.989Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-07T14:25:08.018Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-11-07T14:25:08.083Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method goTo"}
+{"level":30,"time":"2025-11-07T14:25:08.104Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-07T14:25:08.105Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Strict mode is enabled, find Locator with css=a[href=\"/movies/68e8f82e97de05f696275f08\"] in page."}
+{"level":30,"time":"2025-11-07T14:25:17.168Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Removed page=6ebebfea-f67a-452c-b6ad-4127775b8f02 from context=106d8152-047c-4e09-96aa-bc022dcc19ce page stack"}
+{"level":40,"time":"2025-11-07T14:25:17.169Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Supress locator.click: Target page, context or browser has been closed error"}
+{"level":30,"time":"2025-11-07T14:25:17.170Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"End of node method click"}
+{"level":30,"time":"2025-11-07T14:25:17.193Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10979:11)
+    at takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11035:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13510:34)
+    at Object.onReceiveHalfClose (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-07T14:25:17.194Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-11-07T14:25:17.216Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10979:11)
+    at takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11035:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13510:34)
+    at Object.onReceiveHalfClose (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-07T14:25:17.217Z","pid":29244,"hostname":"DESKTOP-RVC6TM4","msg":"Error of node method  takeScreenshot"}
